@@ -10,7 +10,7 @@ fetch('API')を使った4択クイズです。
 ↓  
 ４.makeQuiz関数 問題と解答を表示する  
 ↓  
-5.buildAnswers関数 response.json内の正解と不正解を配列にしshuffle関数を実行する
+5.buildAnswers関数 response.json内の正解と不正解を配列にしshuffle関数を実行する  
 ↓  
 6.Shuffle関数 引数で受け取った配列をシャッフルする  
 ↓  
