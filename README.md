@@ -8,14 +8,12 @@ fetch('API')を使った4択クイズです。
 ↓  
 ３.removeAllAnswers関数 前回のmakeQuiz関数によって代入されたanswers をリセットする  
 ↓  
-４.makeQuiz関数 
-↓　　↓  
-↓　5.buildAnswers関数
-↓　　↓  
-↓　6.Shuffle関数
-↓　　↓  
-↓　7.unescape関数
-↓　　↓  
-8.finishQuiz関数  
-
-APIから渡されるresponse.json内の解答をシャッフルする処理
+４.makeQuiz関数 問題と解答を表示する  
+↓  
+5.buildAnswers関数 response.json内の正解と不正解を配列にしshuffle関数を実行する
+↓  
+6.Shuffle関数 引数で受け取った配列をシャッフルする  
+↓  
+7.unescape関数 アンエスケープ処理を実装する  
+↓  
+8.finishQuiz関数 正答数とリスタートボタンを表示する  
